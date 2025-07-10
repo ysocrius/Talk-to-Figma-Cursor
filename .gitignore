@@ -1,0 +1,55 @@
+# Node modules and build artifacts
+node_modules/
+dist/
+docs/
+
+# Environment variable files
+.env
+.env.*
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Secret and credential files
+secrets.*
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+config/secrets.yml
+
+# Log and backup files
+*.log
+*.bak
+
+# macOS system files
+.DS_Store
+
+# Local setup and batch files
+SETUP_GUIDE.md
+cleanup.bat
+
+# Bun and bunx related files
+bun.lock
+.bun/
+
+# Ignore everything by default
+/*
+
+# Allow only essential files and folders for MCP
+!src/
+!package.json
+!tsconfig.json
+!README.md
+!LICENSE
+!Dockerfile
+!.gitignore
+
+# Still ignore build artifacts and dependency folders inside src if present
+src/dist/
+src/node_modules/
+
+# (Optional) If you want to keep scripts for setup/build, un-ignore them:
+#!scripts/
