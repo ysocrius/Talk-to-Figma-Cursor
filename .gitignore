@@ -30,13 +30,12 @@ config/secrets.yml
 # Local setup and batch files
 SETUP_GUIDE.md
 cleanup.bat
+smithery.yaml
+Dockerfile
 
 # Bun and bunx related files
 bun.lock
 .bun/
-
-# Ignore everything by default
-/*
 
 # Allow only essential files and folders for MCP
 !src/
@@ -44,8 +43,8 @@ bun.lock
 !tsconfig.json
 !README.md
 !LICENSE
-!Dockerfile
 !.gitignore
+!screenshots/
 
 # Still ignore build artifacts and dependency folders inside src if present
 src/dist/
