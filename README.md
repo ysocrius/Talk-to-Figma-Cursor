@@ -26,12 +26,16 @@ npx -v
 **Screenshots:**
 
 - ![Figma Plugin Localhost Enabled](screenshots/plugin_localhost.png)
+
   *Figma plugin with 'Use localhost' enabled*
 - ![MCP via npx in Terminal](screenshots/npx_terminal.png)
+
   *Running MCP via npx in terminal*
 - ![MCP Running via npx](screenshots/mcp_via_npx.png)
+
   *MCP server running via npx*
 - ![MCP via cmd and npx](screenshots/mcp_via_cmd_npx.png)
+
   *MCP server running via cmd and npx on Windows*
 
 ---
